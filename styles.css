@@ -1,3 +1,6 @@
+body{
+  height:100%;
+}
 .mainContainer{
   display: flex;
   flex-direction: column;
@@ -86,7 +89,6 @@ i:last-child{
 }
 
 .footer{
-  position: relative;
   height: 100px;
   width: 100%;
   text-align: center;
