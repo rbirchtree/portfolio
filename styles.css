@@ -96,3 +96,10 @@ i:last-child{
   text-align: center;
   bottom:0;
 }
+
+ul{
+  text-align: center;
+}
+li{
+  display: inline;
+}
