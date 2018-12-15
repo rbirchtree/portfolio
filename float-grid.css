@@ -1,0 +1,31 @@
+.row {
+	max-width: 1000px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0 auto;
+	border-radius: 3px;
+}
+
+/*clear fix?*/
+.row::before,
+.row::after {
+	display: table;
+	content: '';
+}
+
+.row::after{
+	clear: both;
+}
+
+.col-6{
+	float:left;
+	width:100%;
+	padding-left:1.0416%;
+	padding-right:1.0416%;
+}
+
+@media only screen and (min-width: 640px){
+	.col-6 {
+		width: 50%;
+	}
+}

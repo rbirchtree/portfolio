@@ -67,6 +67,7 @@ p{
   margin-left: auto;
   margin-right: auto;
 }
+
 main{
   background-color: #6987D5;
   text-align: center;
@@ -107,18 +108,17 @@ i{
 }
 
 .footer{
-  height: 100px;
   width: 100%;
   text-align: center;
+  clear: both;
+  position: relative;
+  height: 40px;
+  margin-top: -10px;
 }
 
 .copyright{
-  position: fixed;
-  width: 100%;
-  line-height: 40px;
   font-size: 0.7em;
   text-align: center;
-  bottom:0;
 }
 
 ul{
