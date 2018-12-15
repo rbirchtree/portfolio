@@ -1,32 +1,32 @@
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; 
 }
 
 .mainContainer{
 
 }
-
+/* use https://www.schemecolor.com/monochromatic-blues-color-scheme.php */
 .topContainer{
-  background-color: rgb(0,128,255);
+  /* background-color: #445BC1; */
   border-radius: 3px;
-  margin: 5px;
+  margin: 15px 5px 15px 5px;
 }
 
 .midContainer{
   display: block;
-  background-color: rgb(14,77,146);
+  background-color: #BDDFFA;
   border-radius: 3px;
   text-align: center;
   padding: 5px;
-  margin: 5px;
+  margin: 15px 5px 15px 5px;
 }
 
 .bottomContainer{
 /*   flex:1; */
-  background-color: rgb(0,0,128);
+  background-color: #97BAEC;
   border-radius: 3px;
   padding: 5px;
-  margin: 5px;
+  margin: 15px 5px 15px 5px;
 }
 
 .links{
@@ -35,7 +35,7 @@
   margin: auto;
 }
 
-img{
+.bio{
   float: left;
   border: solid black 3px;
   border-radius: 3px;
@@ -43,13 +43,34 @@ img{
   margin: 0 5px 5px 5px;
 }
 
+img{
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 3px;
+  max-width: 300px;
+}
+
 p{
   border: solid black 3px;
   padding: 50px 20px;
-  margin: 5px;
+  margin: 10px auto;
   border-radius: 3px;
   font-family: 'Roboto', sans-serif;
-  background-color: white;
+  max-width: 600px;
+  display: block;
+  font-size: 1em;
+  text-align: left;
+}
+
+.project {
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+main{
+  background-color: #6987D5;
+  text-align: center;
+  padding: 10px;
 }
 
 a:hover{
@@ -75,13 +96,14 @@ h2{
 }
 
 
-i:last-child{
+i{
   padding-right: 3px;
 }
 
 .midRight, .midCenter, .midLeft {
   display: inline-block;
   width:33%;
+  height: 10%
 }
 
 .footer{
@@ -102,9 +124,22 @@ i:last-child{
 ul{
   text-align: center;
 }
-li{
-  display: inline;
+
+nav{
+  position: sticky;
+  top:0;
+  width: 100%;
+  background-color: #2C43B8;
+  border-radius: 3px;
 }
+li{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2em;
+  width:32%;
+}
+li
 
 main > p::first-letter{
   text-transform: uppercase;
