@@ -4,7 +4,6 @@
 
 
 .topContainer{
-  
   border-radius: 3px;
   margin: 15px 5px 15px 5px;
 }
@@ -153,4 +152,7 @@ nav li:first-child{
 nav li:nth-child(2) {
   background-color: #BDDFFA;
 }
+
+.resume{
+  font-weight: boldl
 }
