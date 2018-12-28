@@ -2,10 +2,10 @@
   box-sizing: border-box; 
 }
 
-
 .topContainer{
   border-radius: 3px;
   margin: 15px 5px 15px 5px;
+  background-color: #6987D5;
 }
 
 .midContainer{
@@ -66,7 +66,6 @@ p{
 }
 
 main{
-  background-color: #6987D5;
   text-align: center;
   padding: 10px;
 }
@@ -130,7 +129,6 @@ li{
   margin-left: auto;
   margin-right: auto;
   font-size: 1.2em;
-  width:32%;
   text-align: center;
   padding: 3px;
 }
