@@ -25,12 +25,6 @@
   margin: 15px 5px 15px 5px;
 }
 
-.links{
-  /* text-align: center; */
-  padding: 0 45px;
-  list-style: none;
-  margin: auto;
-}
 
 .bio{
   float: left;
@@ -46,13 +40,13 @@ img{
 }
 
 p{
-  padding: 0px 20px;
+  padding: 5px 20px;
   margin: 0 auto;
   border-radius: 3px;
   font-family: 'Roboto', sans-serif;
   max-width: 600px;
   font-size: 1em;
-  text-align: left;
+  text-align: left; 
 }
 
 .project {
@@ -84,7 +78,7 @@ a{
 }
 
 h2,h1{
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto';
   text-transform: uppercase;
   text-align: center;
 }
@@ -122,6 +116,7 @@ nav{
   position: sticky;
   top:0;
   width: 100%;
+  padding-left: -40px;
   background-color: rgb(255,255,255);
   border-radius: 3px;
 }
@@ -141,21 +136,79 @@ main p::first-letter {
   font-size: 30px; 
 }
 
-/* li a{
-  padding-right: 3px;
-} */
+nav li{
+  width:100%;
+}
 
-nav li:first-child{
+nav a:first-child{
   background-color: #6987D5;
 }
 
-nav li:nth-child(2) {
+nav a:nth-child(2) {
   background-color: #BDDFFA;
 }
-nav li:nth-child(3) {
+nav a:nth-child(3) {
   background-color: #97BAEC;
 }
 
 .resume{
   font-weight: bold;
+};
+
+nav li{
+  width:33%;
+};
+
+.row {
+  max-width: 1000px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+
+
+.row::before,
+.row::after {
+  display: table;
+  content: '';
+}
+
+.row::after{
+  clear: both;
+}
+
+.col-6{
+  float:left;
+  width:100%;
+}
+
+.col-4{
+  width: 100%;
+  display: inline-block;
+  padding: 3px;
+  vertical-align: top;
+}
+
+main > p{
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+ul > li{
+  display:inline-block;
+  width:33%;
+}
+
+@media only screen and (min-width: 640px){
+  .col-6 {
+    width: 50%;
+  }
+  .col-4{
+    width:33%;
+  }
+  nav li{
+  width:33%;
+  }
+
 }
