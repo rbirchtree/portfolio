@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box; 
+  font-family: 'Roboto', sans-serif,"Times New Roman", Times, serif;
 }
 
 .topContainer{
@@ -25,7 +26,8 @@
 }
 
 .links{
-  text-align: left;
+  /* text-align: center; */
+  padding: 0 45px;
   list-style: none;
   margin: auto;
 }
@@ -139,9 +141,9 @@ main p::first-letter {
   font-size: 30px; 
 }
 
-li a{
+/* li a{
   padding-right: 3px;
-}
+} */
 
 nav li:first-child{
   background-color: #6987D5;
@@ -150,7 +152,10 @@ nav li:first-child{
 nav li:nth-child(2) {
   background-color: #BDDFFA;
 }
+nav li:nth-child(3) {
+  background-color: #97BAEC;
+}
 
 .resume{
-  font-weight: boldl
+  font-weight: bold;
 }
