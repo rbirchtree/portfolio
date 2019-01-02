@@ -7,6 +7,7 @@
   border-radius: 3px;
   margin: 15px 5px 15px 5px;
   background-color: #6987D5;
+  margin: 15px 10px 15px 10px;
 }
 
 .midContainer{
@@ -14,15 +15,15 @@
   background-color: #BDDFFA;
   border-radius: 3px;
   text-align: center;
-  padding: 5px;
-  margin: 15px 5px 15px 5px;
+  padding: 10px;
+  margin: 15px 10px 15px 10px;
 }
 
 .bottomContainer{
   background-color: #97BAEC;
   border-radius: 3px;
-  padding: 5px;
-  margin: 15px 5px 15px 5px;
+  padding: 10px;
+  margin: 15px 10px 15px 10px;
 }
 
 
@@ -55,6 +56,7 @@ p{
   margin-right: auto;
   text-align: center;
   font-weight: bold;
+  margin-bottom: 5px;
 }
 
 .techUsed {
@@ -82,10 +84,12 @@ h2,h1{
   text-transform: uppercase;
   text-align: center;
 }
-
+h1{
+  font-size: 1.5em
+}
 h2{
   margin:5px;
-  font-size: 2em;
+  font-size: 1.2em;
 }
 
 
@@ -119,6 +123,7 @@ nav{
   padding-left: -40px;
   background-color: rgb(255,255,255);
   border-radius: 3px;
+  font-size: 0;
 }
 
 li{
@@ -199,7 +204,9 @@ ul > li{
   display:inline-block;
   width:33%;
 }
-
+.fa-phone{
+  padding-right: 3px;
+}
 @media only screen and (min-width: 640px){
   .col-6 {
     width: 50%;
