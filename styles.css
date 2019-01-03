@@ -234,11 +234,12 @@ ul > li{
   }
 
   .col-4{
-    width:33%;
+    width:50%;
   }
-  nav li{
-  width:33%;
-  }
+
+   nav li{
+   width:33%;
+   }
   ul > li{
   display:inline-block;
   width:33%;
