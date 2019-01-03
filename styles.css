@@ -219,14 +219,14 @@ main > p{
 }
 
 ul > li{
-  display:inline-block;
-  width:33%;
+  display:block;
+  width:100%;
 }
 
-.fa-phone{
+.fa-phone,.fa-github,.fa-linkedin{
   padding-right: 3px;
-}
 
+}
 
 @media only screen and (min-width: 640px){
   .col-6 {
@@ -239,5 +239,9 @@ ul > li{
   nav li{
   width:33%;
   }
-
+  ul > li{
+  display:inline-block;
+  width:33%;
+  }
 }
+
