@@ -30,7 +30,7 @@
   float: left;
   border: solid black 3px;
   border-radius: 3px;
-  width: 80px;
+  width: 100px;
   margin: 0 5px 5px 5px;
 }
 
@@ -124,8 +124,6 @@ ul{
 nav{
   position: sticky;
   top:0;
-  width: 100%;
-  padding-left: -40px;
   background-color: rgb(255,255,255);
   border-radius: 3px;
   font-size: 0;
