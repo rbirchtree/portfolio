@@ -16,7 +16,7 @@
   border-radius: 3px;
   text-align: center;
   padding: 10px;
-  margin: 15px 10px 15px 10px;
+  margin: 15px 15px 15px 15px;
 }
 
 .bottomContainer{
@@ -24,6 +24,10 @@
   border-radius: 3px;
   padding: 10px;
   margin: 15px 10px 15px 10px;
+}
+
+.mainContainer{
+  margin: 0px 10px;
 }
 
 .bio{
@@ -88,7 +92,8 @@ h2,h1{
 }
 
 h1{
-  font-size: 1.5em
+  font-size: 1.5em;
+  padding-top:10px;
 }
 
 h2{
@@ -143,12 +148,17 @@ main p::first-letter {
   font-size: 30px; 
 }
 
+main p{
+  margin: 5% 10%;
+}
+
 nav li{
   width:100%;
 }
 
 nav a:first-child{
   background-color: #6987D5;
+  text-transform: uppercase;
 }
 
 nav a:nth-child(2) {
