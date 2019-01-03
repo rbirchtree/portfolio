@@ -41,6 +41,7 @@
 img{
   border-radius: 3px;
   width: 100%;
+  margin-bottom: 3px;
 }
 
 p{
@@ -59,11 +60,13 @@ p{
   margin-right: auto;
   text-align: center;
   font-weight: bold;
+  font-size: 1.2em;
   margin-bottom: 5px;
 }
 
 .techUsed {
   text-align: left;
+  margin-top: 5px;
 }
 
 main{
