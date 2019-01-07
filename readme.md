@@ -10,3 +10,7 @@ Built with HTML, CSS, JavaScript to showcase Rob Birch's work. Most of the apps 
 6. Jest
 7. Stripe
 8. Redux
+9. Heroku
+10. AWS
+11. JSON Web Tokens
+12. Meetup's API
