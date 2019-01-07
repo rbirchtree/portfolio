@@ -104,11 +104,6 @@ h2{
 }
 
 
-i{
-  padding-right: 3px;
-}
-
-
 .footer{
   width: 100%;
   text-align: center;
@@ -232,7 +227,7 @@ ul > li{
   width:100%;
 }
 
-.fa-phone,.fa-github,.fa-linkedin{
+.fa-envelope-square,.fa-github,.fa-linkedin{
   padding-right: 3px;
 }
 
