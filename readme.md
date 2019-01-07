@@ -14,3 +14,7 @@ Built with HTML, CSS, JavaScript to showcase Rob Birch's work. Most of the apps 
 10. AWS
 11. JSON Web Tokens
 12. Meetup's API
+13. Travis CI
+14. Mocha
+15. Chai
+16. Enzyme
