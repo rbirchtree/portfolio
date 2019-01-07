@@ -1,2 +1,3 @@
-#Portfolio Website
-Built with HTML and CSS
+# Portfolio Website
+
+Built with HTML, CSS, JavaScript
