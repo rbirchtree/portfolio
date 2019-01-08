@@ -30,11 +30,9 @@
 }
 
 .bio {
-  float: left;
-  border: solid black 3px;
-  border-radius: 3px;
+  border-radius:50%;
   width: 200px;
-  margin: 0 5px 5px 5px;
+  vertical-align: baseline;
 }
 
 img {
@@ -233,7 +231,7 @@ ul > li {
 
 @media only screen and (min-width: 640px) {
   .col-6 {
-    width: 50%;
+    width: 32%;
   }
 
   .col-4 {
@@ -242,7 +240,7 @@ ul > li {
 
    nav li {
    width:32%;
-   padding: 5px;
+   padding: 2px;
    }
 
   ul > li {
