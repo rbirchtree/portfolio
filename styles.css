@@ -37,7 +37,7 @@
 
 img {
   border-radius: 3px;
-  width: 100%;
+  width: 80%;
   margin-bottom: 3px;
 }
 
@@ -213,6 +213,8 @@ nav li {
   display: inline-block;
   padding: 3px;
   vertical-align: top;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 main > p {
@@ -225,8 +227,60 @@ ul > li {
   width:100%;
 }
 
-.fa-envelope-square,.fa-github,.fa-linkedin {
+.fab,.fas {
   padding-right: 3px;
+}
+
+/*overlay magic here*/
+/* image,overlay,overlayLeft,text and hover break it down*/
+.image {
+  display: block;
+  width: 100%;
+}
+.container:hover .overlay{
+  opacity:1;
+}
+
+.text {
+  color:white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family: sans-serif;
+}
+
+.container {
+  position: relative;
+  /* width:200px; */
+  width: 100%;
+  border: solid red 3px;
+  /*maybe make width 100%?*/
+  /* height: 200px; */
+  display: inline-block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.overlay {
+  position: absolute;
+  opacity: 0;
+  transition:all .3s ease;
+  background-color: #008cba;
+
+}
+
+.overlayLeft{
+    height: 100%;
+    width:0;
+    top:0;
+    left:0;
+    background-color: #00b1ba;
+}
+
+.container:hover .overlayLeft ,.container:hover .overlayRight {
+    width: 100%;
 }
 
 @media only screen and (min-width: 640px) {
@@ -245,6 +299,6 @@ ul > li {
 
   ul > li {
   display:inline-block;
-  width:33%;
+  width:24%;
   }
 }
